@@ -120,7 +120,11 @@
 			},
 			{
 				"command": "jsonOutline.renameNode",
-				"title": "Rename"
+				"title": "Rename",
+				"icon": {
+					"light": "resources/light/edit.svg",
+					"dark": "resources/dark/edit.svg"
+				}
 			},
 			{
 				"command": "fileExplorer.refreshFile",
@@ -182,7 +186,8 @@
 				},
 				{
 					"command": "jsonOutline.renameNode",
-					"when": "view == jsonOutline"
+					"when": "view == jsonOutline && viewItem == string",
+					"group": "inline"
 				},
 				{
 					"command": "jsonOutline.refreshNode",
