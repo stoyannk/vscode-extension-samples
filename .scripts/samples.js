@@ -76,7 +76,7 @@ const samples = [
     contributions: []
   },
   {
-    description: 'Editor Decoractor Sample',
+    description: 'Editor Decorator Sample',
     path: 'decorator-sample',
     guide: null,
     apis: [
@@ -232,7 +232,8 @@ const samples = [
   { description: 'quickinput-sample', excludeFromReadme: true, path: 'quickinput-sample', guide: null, apis: [], contributions: [] },
   { description: 'diagnostic-related-information-sample', excludeFromReadme: true, path: 'diagnostic-related-information-sample', guide: null, apis: [], contributions: [] },
   { description: 'fsconsumer-sample', excludeFromReadme: true, path: 'fsconsumer-sample', guide: null, apis: [], contributions: [] },
- 
+  { description: 'github-authentication-sample', excludeFromReadme: true, path: 'github-authentication-sample', guide: null, apis: [], contributions: [] },
+
 ]
 
 /** LSP specific samples */
@@ -273,7 +274,14 @@ const lspSamples = [
       'https://github.com/Microsoft/vscode/wiki/Extension-Authoring:-Adopting-Multi-Root-Workspace-APIs#language-client--language-server',
     apis: [],
     contributions: []
-  }
+  },
+  {
+    description: 'LSP Web Extension Sample',
+    path: 'lsp-web-extension-sample',
+    guide: '/api/language-extensions/language-server-extension-guide',
+    apis: [],
+    contributions: []
+  },
 ]
 /**
  * LSP specific samples
